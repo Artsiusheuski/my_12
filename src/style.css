@@ -1,0 +1,67 @@
+#root {
+    padding-top: 30px;
+
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .goods-field{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  .goods-block {
+    width: 80%;
+    margin: 1%;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .goods-block img {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+  
+table {
+  border: 2px solid grey;
+  width: 50%;
+}
+
+th {
+  border: 1px solid grey;
+}
+
+td {
+  border: 1px solid grey;
+}
+
+.button{
+  background-color: #53bb0e;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #cabb30d7;
+  transition: .2s ease ;
+}
+
+.addImg {
+  width: 30%;
+}
+
+td img{
+  width: 10%;
+}
+
